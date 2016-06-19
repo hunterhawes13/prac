@@ -1,0 +1,139 @@
+
+header
+{
+height: 300px;
+position: relative;
+top: -100px;
+}
+
+#container {
+display: block;
+background-image: url("file:///Users/hunterhawes/projects/HOU/imgs/hou.png");
+background-size: cover;
+height: 400px;
+width: auto; 
+}
+
+#imgage {
+  height: 400px;
+}
+.cont {
+  height: auto;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body
+{
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.iron-yard {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    z-index: 20;
+}
+
+.leftc {
+  display:inline-block;
+  padding-left: 32px;
+  padding-right:  32px;
+  float: left;
+  width: 65px;
+  height: auto;
+
+}
+
+.info {
+display: inline-block;
+float: left;
+margin-top: 80px;
+border-bottom: 1px solid #EEE;
+
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: serif;
+  font-size: 12px;
+
+}
+
+h4 {
+  font-family: serif;
+  font-size: 12px;
+  font-style: italic;
+
+}
+
+.grey {
+  color: #EEE
+}
+
+#container3 {
+    float:left;
+    width:100%;
+    background:green;
+    overflow:hidden;
+    position:relative;
+}
+#container2 {
+    float:left;
+    width:100%;
+    background:yellow;
+    position:relative;
+    right:30%;
+}
+#container1 {
+    float:left;
+    width:100%;
+    background:red;
+    position:relative;
+    right:40%;
+}
+#col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+#col2 {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+    padding-top: 50px;
+}
+#col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+
